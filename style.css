@@ -31,6 +31,12 @@ body
     {
         font-size: 18px;
     }
+    
+    .navbar-logo
+    {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 .bg-semi-black
