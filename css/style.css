@@ -1,1 +1,61 @@
-f
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=EB+Garamond&family=Open+Sans&family=Oswald&family=Rubik+Moonrocks&display=swap');
+
+body
+{
+    background: #1e1e1e;
+}
+
+.text-orange
+{
+    color: #e6b333;
+}
+
+.form-search *
+{
+    border-radius: 0;
+    border: none;
+}
+
+.carousel-caption
+{
+    font-size: 80px;
+    font-family: 'Rubik Moonrocks';
+    color: white;
+}
+
+video
+{
+    -moz-transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+img
+{
+    border: none;
+    border-radius: 0;
+}
+
+.card-movie-name
+{
+    text-align: center;
+    width: 100%;
+    height: 200%;
+    margin-top: -140%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0px;
+    color: white;
+    padding-top: 60%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card-movie-name:hover
+{
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 30px;
+}
