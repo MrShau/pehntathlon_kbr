@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=EB+Garamond&family=Open+Sans&family=Oswald&family=Rubik+Moonrocks&display=swap');
+
+body
+{
+    background-color: rgb(235, 235, 235);
+}
+
+.navbar-brand
+{
+    color: white;
+    font-family: "Oswaid", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.oswaid
+{
+    font-family: "Oswaid", sans-serif;
+    font-style: normal;
+}
+
+.open-sans
+{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar-brand
+    {
+        font-size: 18px;
+    }
+}
+
+.bg-semi-black
+{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.m-w-100
+{
+    min-width: 200px;
+}
+
+.navbar
+{
+    user-select: none;
+}
